@@ -2,11 +2,11 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
-const authRoute = require("../api/routes/auth");
-const userRoute = require("../api/routes/users");
-const movieRoute = require("../api/routes/movies");
-const listRoute = require("../api/routes/lists");
-const featuredRoute = require("../api/routes/featured");
+const authRoute = require("./routes/auth");
+const userRoute = require("./routes/users");
+const movieRoute = require("./routes/movies");
+const listRoute = require("./routes/lists");
+const featuredRoute = require("./routes/featured");
 const cors = require("cors");
 
 app.use(cors());
