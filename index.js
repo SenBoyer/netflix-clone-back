@@ -28,6 +28,6 @@ app.use("/api/movies", movieRoute);
 app.use("/api/lists", listRoute);
 app.use("/api/featured", featuredRoute);
 
-app.listen(8080, () => {
-  console.log("backend server is running");
-});
+// app.listen(8080, () => {
+//   console.log("backend server is running");
+// });
